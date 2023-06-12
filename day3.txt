@@ -64,6 +64,20 @@ devopsschool2,23,hyd2,devops2
 devopsschool3,24,hyd3,devops3
 devopsschool4,25,hyd4,devops4
 
+Setting up input.conf
+$ ./bin/splunk list monitor 
+$ ./bin/splunk add monitor /var/log
+$ ./bin/splunk add monitor /var/log/syslogs -sourcetype linux -index rajesh
+$ ./splunk add monitor /root/demo.csv -sourcetype home -index home
+$ ./bin/splunk list forward-server
+
+
+Setting up output.conf
+$ ./bin/splunk add forward-server 65.0.27.24:9997 --accept-license
+$ ./bin/splunk add forward-server 65.0.27.24:9997 
+$ ./bin/splunk list forward-server
+
+
 Setting up output.conf
 $ ./bin/splunk add forward-server 15.206.149.89:9997 --accept-license 
 $ ./bin/splunk list forward-server
