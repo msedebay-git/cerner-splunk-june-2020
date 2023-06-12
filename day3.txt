@@ -65,7 +65,7 @@ devopsschool3,24,hyd3,devops3
 devopsschool4,25,hyd4,devops4
 
 Setting up output.conf
-$ ./bin/splunk add forward-server 15.206.149.89:9997 --accept-license 
+$ ./bin/splunk add forward-server <splunk master>:9997 --accept-license 
 $ ./bin/splunk list forward-server
 
 Setting up input.conf
