@@ -17,7 +17,7 @@ Scene 4 -
 	Setup Splunk Indexer  [LICENSE SERVER ]
 	Setup Splunk Search Head
 	Setup Deployment Server (Deploy SOME APP)
-
+	
 Scene 1 - 
 	Setup universal forwarder
 	Setup Splunk(Indexer + Search Head) [LICENSE SERVER ]
